@@ -1,0 +1,92 @@
+/* Start Varaibles */
+--root{
+    --main-color: #649498;
+    --secondary-color: #dab5af;
+    --main-duration: 0.3s;
+    --section-padding:100px;
+}
+
+/* End Varaibles */
+
+/* Start Global Rules */
+
+*{
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+body{
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Work Sans', sans-serif;
+    background-color: #ffffff;
+}
+
+ul{
+    list-style: none;
+}
+
+.container{
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* small screen */
+
+@media (min-width:768px) {
+    .container{
+        width: 750px;
+    }
+}
+
+/* meduim screen */
+
+@media (min-width:992px){
+    .container{
+        width: 970px;
+    }
+
+}
+
+/* large screen */
+
+@media (min-width:1200px){
+    .container{
+        width: 1170px;
+    }
+}
+/* End Global Rules */
+
+
+/* Start Component */
+
+/* End Component */
+
+
+/* Start header */
+
+/* End header */
+
+
+/* Start landing */
+
+/* End landing */
+
+
+/* Start intro */
+
+/* End intro */
+
+
+/* Start feature */
+
+/* End feature */
